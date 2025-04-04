@@ -13,7 +13,7 @@ interface Article {
     date?: string;
 }
 
-const API_URL = 'http://localhost:4000/api/v1';
+const API_URL = 'http://localhost:4001/api/v1';
 
 export default function ArticleDetail() {
     const params = useParams();
